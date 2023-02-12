@@ -1,0 +1,138 @@
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('road-out-of-the-forest-beautiful-autumn-landscape-vector.jpg');
+
+    background-size: 500px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #002c2e;
+    padding: 50px 0;
+    margin: 29px;
+    border-radius: 20px;
+}
+
+i .aa {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(48, 100, 76, 0.2);
+    margin: 0 18px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.8s ease;
+}
+
+i .aa:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.col {
+    font-family: 'Poppins', sans-serif;
+    width: 25%;
+    padding: 10px 15px;
+}
+
+.col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+
+.col h4:hover {
+    color: rgb(1, 124, 155);
+    transition: all 0.5s;
+}
+
+.col h4::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    bottom: -15px;
+    background-color: #000000;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.col ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.col .link a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 18px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.8s ease;
+}
+
+.col .link a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width:767px) {
+    .col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:574px) {
+    .col {
+        width: 10%;
+    }
+}
